@@ -1,0 +1,159 @@
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+* {
+   overflow-x: hidden;
+}
+
+/* Début header*/
+  nav {
+    height: 100%;
+    width: 40%;
+    justify-content: flex-start!important;
+    display: block!important;
+  }
+
+
+  .nav-link {
+    display: none;
+    text-align: center;
+  }
+  nav > a
+   {
+    display: none;
+  }
+
+  .icon {
+    position: absolute;
+  }
+
+  .responsive > h1 {
+    display: none;
+  }
+
+  .responsive {
+    height: 100vh!important;
+  }
+
+  .responsive > nav > .nav-link {
+    display: block!important;
+    line-height: 50px;
+  }
+
+  #navbar .navbarDropdown, .dropdown-menu {
+    width: 100%;
+    top : 0;
+    line-height: normal;
+  }
+
+  h1 {
+    font-size: 28px;
+    width: 60%;
+    margin-left: 2.7rem!important;
+  }
+
+  /*Fin header */
+
+  /* Début carousel */
+
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    display: none;
+  }
+
+  .carousel-item {
+    height: 80vh;
+    overflow: hidden!important;
+  }
+
+  .carousel-item,.img-carousel {
+    height: 80vh;
+    object-fit: cover;
+  }
+
+  .carousel-inner {
+    height: 80vh;
+  }
+
+  /* Fin carousel */
+
+  /* Début section je m'invente & recherches */
+
+  h2 {
+    font-size: 4vh!important;
+  }
+
+  h3 {
+    font-size: 3vh!important;
+    text-align: left!important;
+  }
+
+  .br-tablet {
+     display:block;
+  }
+
+  .br-desktop {
+    display: none;
+  }
+
+  .br-mobile {
+    display: none;
+  }
+
+   .d-none-for-tablet {
+    display: none;
+  }
+
+  .d-none-for-desktop {
+    display: block;
+  }
+
+  article {
+    margin-top : 5rem;
+    margin-bottom : 5rem;
+  }
+  #video-fm {
+    width: 325px;
+    height: 325px;
+  }
+  .img-recherches {
+    width: 300px;
+    height: 300px;
+  }
+
+  .div-img {
+    height: auto;
+  }
+
+  .img-recherches2 {
+    width: 300px;
+    height : 300px;
+    margin-top: 300px;
+  }
+
+  h3 {
+    text-align: left!important;
+  }
+
+  .bg-black {
+    background-color: black;
+    color: white;
+  }
+
+  .btn {
+    border-color: white!important;
+  }
+
+  .div-global-contact {
+    padding-bottom: 50px;
+  }
+
+  .span-contact {
+    font-size: 25px;
+  }
+
+  .img-propos {
+    height: 80%;
+  }
+
+
+
+
+}

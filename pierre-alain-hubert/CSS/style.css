@@ -1,0 +1,285 @@
+@import url("FjallaOne_Regular/stylesheet.css");
+@import url("AbrilFatface_Regular/stylesheet.css");
+@import url("OldSport01CollegeNcv_aeGm/stylesheet.css");
+
+
+* {
+	color: white;
+	font-style: normal;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+body {
+  overflow-x: hidden;
+  background-color: black;
+}
+
+#navbar {
+	position: fixed;
+	background-color: black;
+}
+/* Animation */
+
+.div-paragraphe-recherches-hidden {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+
+.div-paragraphe-recherches-visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.tag.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+
+.modal-body {
+	padding : 0;
+}
+
+.modal-header {
+	background-color: black;
+}
+.modal-title {
+		text-align : center;
+		text-shadow : 0px!important;
+}
+
+.menu-link {
+	padding : 5rem 1rem;
+}
+
+
+
+  h1 {
+    font-size: 36px;
+		width: 40%;
+		font-weight: bold;
+		margin-left: 4rem;
+
+  }
+
+  h2 {
+    font-size: 6vh;
+    margin-bottom: 80px;
+		font-weight: 600;
+		padding-top: 100px;
+  }
+
+  h3 {
+    font-size: 5vh;
+  }
+
+.h1_mobile_tablet {
+  display: none;
+}
+
+nav > a, h3 {
+	font-weight: 500;
+}
+
+.z {
+  display: block;
+}
+
+header {
+  width: 100%;
+  height : 100px;
+  /* position: sticky; */
+  z-index: 7;
+  min-height: 70px;
+}
+
+nav {
+	width: 60%;
+	/* margin-right: 2.5rem!important; */
+}
+
+hr {
+  height: 2px!important;
+  color: white!important;
+}
+
+ a,.nav-link:hover {
+  color:white;
+  font-size : 1.2em;
+  margin : 0 15px;
+
+}
+
+
+.icon {
+  display: none;
+  right: 0!important;
+
+}
+
+.icon:hover  {
+	color: white;
+}
+
+/* Fin header */
+
+/* Début carousel */
+
+.carousel-inner {
+  height: 100vh;
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.carousel-control-prev-icon {
+	background-image: url()!important;
+}
+
+.carousel-control-next-icon {
+background-image: url()!important;
+}
+
+/* Fin carousel */
+
+/* Début section je m'invente */
+/* Début feux mobiles */
+.container {
+	max-width: 95%;
+}
+.hr {
+    /* centre verticalement les enfants entre eux */
+    align-items: center;
+
+    /* active flexbox */
+    display: flex;
+
+    /* garde le texte centré s’il passe sur plusieurs lignes ou si flexbox n’est pas supporté */
+    text-align: center;
+}
+
+
+.hr::before,
+.hr::after {
+    /* la couleur est volontairement absente ; ainsi elle sera celle du texte */
+    border-top: .0625em solid;
+
+    /* nécessaire pour afficher les pseudo-éléments */
+    content: "";
+
+    /* partage le reste de la largeur disponible */
+    flex: 1;
+
+    /* espace les traits du texte */
+    margin: 0 .5em;
+}
+
+.br-tablet {
+	 display:none;
+}
+
+.br-desktop {
+	display: block;
+}
+
+.br-mobile {
+	display: none;
+}
+
+.controlBar {
+	display: none!important;
+}
+
+.boutonup,.boutonup-jdf,.boutonup-ese,.boutonup-fdj {
+	background-image: url(../img/plus.svg);
+	height: 30px;
+	width: 30px;
+}
+
+.block-for-button {
+	width: 48%;
+}
+
+#text-none,#text-none-jdf,#text-none-ese,#text-none-fdj {
+	display: none;
+}
+
+
+.img-recherches {
+  width: 300px;
+  height: 300px;
+}
+
+.div-img {
+	height: 25%;
+}
+
+article {
+	margin-top: 10rem;
+	margin-bottom: 10rem;
+}
+
+
+.d-none-for-desktop {
+  display: none;
+}
+
+.img-recherches-feux-de-jour {
+  width: 300px;
+  height: 300px;
+}
+
+
+/* Fin je m'invente */
+/* Début recherches */
+
+.bloc-recherches {
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+
+
+footer {
+  height: 35px;
+	width: 88%!important;
+}
+
+footer .last-p {
+	width: 100%!important;
+}
+
+.border-gray {
+	border-color: #323232;
+}
+
+
+.link-contact:link {
+	 text-decoration: none
+}
+
+.link-contact:hover {
+	color: white;
+}
+
+.link-contact {
+	margin: 0;
+}
+
+.icon-footer {
+  width: 30px;
+  height: 30px;
+}
+
+.link_contact > span {
+	list-style: none!important;
+}
+
+
+
+
+}
