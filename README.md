@@ -1,4 +1,4 @@
-# Homme-d-artifices
+# Projet client freelence : L'homme d'artifices
  
 Ce site à été réalisé en freelence pour un client (Pierre-Alain-Hubert).
 
