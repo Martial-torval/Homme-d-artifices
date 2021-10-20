@@ -10,6 +10,8 @@ Suite à l'avancé technologique de notre époque, Pierre-Alain-Hubert voulait f
 
 Avec l'aide de Mandrine Kempa, graphiste (plus précisément Master II directeur artistique), qui s'est occupé de la partie design du site en effectuant des maquettes web en tenant compte de la demande du client et en m'appuyant sur les notions de WebDesign, j'ai réalisé la demande de Pierre-Alain-Hubert, le développement d'un site vitrine qui rescense ses principales oeuvres & réalisations. 
 
+Visitez la démo du site ici : https://noframe.dev.accatone.net/assistants/martial.torval/pierre-alain-hubert/index.php
+
 # Technologies utilisées : 
 - HTML 
 - CSS 
